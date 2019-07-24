@@ -24,11 +24,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/beego/bee/cmd/commands"
-	"github.com/beego/bee/cmd/commands/version"
-	"github.com/beego/bee/config"
-	beeLogger "github.com/beego/bee/logger"
-	"github.com/beego/bee/utils"
+	"github.com/jonyhuang99/bee/cmd/commands"
+	"github.com/jonyhuang99/bee/cmd/commands/version"
+	"github.com/jonyhuang99/bee/config"
+	beeLogger "github.com/jonyhuang99/bee/logger"
+	"github.com/jonyhuang99/bee/utils"
 )
 
 var CmdBale = &commands.Command{
